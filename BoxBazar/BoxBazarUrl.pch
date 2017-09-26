@@ -1,0 +1,75 @@
+//
+//  BoxBazarUrl.pch
+//  BoxBazar
+//
+//  Created by bharat on 03/08/16.
+//  Copyright © 2016 Bharat. All rights reserved.
+//
+
+#ifndef BoxBazarUrl_pch
+#define BoxBazarUrl_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#define BaseUrl @"http://think360.in/boxbazaar/api/index.php/"
+
+#define user @"user"
+#define english @"en"
+#define arabic @"ar"
+
+#define module @"module"
+#define modulelist @"modulelist"
+
+#define citylist @"citylist"
+#define localitylist @"localitylist"
+
+#define userRegister @"user_register"
+#define verifyotp @"verifyotp"
+#define userlogin @"user_login"
+#define resendOtp @"resend_otp"
+#define forgetPassword @"forget_password"
+#define VerifyPasswordOtp @"verify_password_otp"
+#define userProfile @"user_profile"
+#define editprofile @"edit_profile"
+
+#define file @"file"
+#define fileDelete @"file_delete"
+
+#define carSubModule @"car_submodule"
+#define carModel @"car_model"
+#define caroption @"car_option"
+
+#define homeSlider @"home_slider"
+#define carFilter @"car_filter"
+#define gethomecategeory @"get_home_category"
+
+#define CarAddPost @"car_add_post"
+#define Categoty @"category"
+#define CategoryOption @"category_option"
+#define Option @"option"
+
+#define AddPost @"add_post"
+#define Posts @"posts"
+#define Post @"post"
+
+#define CarPosts @"car_posts"
+#define CarPost @"car_post"
+#define addFavorites @"add_favorites"
+#define removeFavorites @"remove_favorites"
+
+#define userFavorites @"user_favorites"
+#define userPosts @"user_post"
+
+#define setConversation @"set_conversation"
+#define getConversion @"get_conversation"
+#define sendMessage @"send_message"
+#define getConversionList @"get_conversation_list"
+
+#define updateMobile @"update_mobile"
+#define deletePost @"delete_post"
+#define verify_mobile_otp @"verify_mobile_otp"
+#define resend_mobile_otp @"resend_mobile_otp"
+
+#endif /* BoxBazarUrl_pch */
